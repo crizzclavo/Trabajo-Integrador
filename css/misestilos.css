@@ -1,0 +1,337 @@
+*{
+
+    margin: 0;
+}
+
+
+body{
+margin: 0;
+
+align-items: center;
+
+
+}
+
+
+
+.logo img{
+
+height:40px;
+
+}
+.logo a{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+
+.c-item h5{
+    font-weight: bold;
+   font-size: 25px;
+    text-align: right;
+}
+
+.m-item p{
+    text-align: right;
+}
+
+.m-item{
+    width: 45%;
+    margin-left:30%;
+    margin-bottom:15%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.button1{
+  display: flex;
+}
+
+
+
+main {
+    margin: 0 auto;
+    align-items: center;
+    
+    
+}
+
+
+section {
+    place-content: center;
+    
+    margin: 0 auto;
+    align-items: center;
+       
+    justify-content: center;
+    
+}
+
+section div{
+    margin:0 auto;
+  place-content: center;
+  align-items: center;
+    
+    
+}
+
+div{
+    margin:0;
+    place-content: center;
+    align-items: center;
+}
+
+
+.contenedor{
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+    display: flex;
+    padding: 2%;
+    margin: 0;
+    
+}
+
+#bloque {
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+   padding: 2%;
+ margin: 0;
+ 
+
+}
+
+.borde{
+   
+  
+    align-items: center;
+    place-content: center;
+    border: 1px solid rgb(175, 169, 180);
+    margin: 0 ;
+
+}
+
+#bloque img{
+
+margin:0 auto;
+ height: 300px;
+ width:300px;
+ align-items: center;
+place-content: center;
+
+
+}
+
+#form-orador{
+    padding: 5%;
+}
+
+.contenido{
+    width:300px;
+    padding: 40px;
+    
+}
+
+
+
+
+h2{
+    align-items: center;
+    place-content: center;
+    font-size: 12px;
+    
+    display: inline-block;
+}
+.oradores h2{
+
+    font-size: 18px;
+
+}
+.spanoradores{
+font-size: 2em;
+place-content: center;
+display: flex;
+font-weight: bold;
+text-transform: uppercase;
+
+    
+}
+
+
+
+.oradores{
+    
+    padding: 1%;
+    
+    text-align: center;
+    place-content: center;
+    
+    
+}
+
+.c-img{
+
+
+    filter:brightness(0.6);
+}
+
+.contenedor2{
+    margin: 0 auto;
+    align-items: center;
+    display:flex;
+    width: 100%;
+    background-color: rgb(42, 39, 44);
+    
+}
+.contenedor2 img{
+    margin: 0 auto;
+    
+    
+}
+#honolulu{
+    
+    height: 50%;
+    width: 50%;
+   display: inline-block;
+   align-items: center;
+}
+
+#detalles {
+   
+   height: 50%;
+   width: 50%;
+   padding: 4%;
+  display: inline-block;
+  
+  
+
+}
+#detalles h2{
+margin-top: 0;
+color: whitesmoke;
+
+}
+#detalles p{
+    font-size: 12px;
+    margin-bottom: 20%;
+    color: whitesmoke;
+}
+
+
+@media(max-width:840px){
+
+    .contenedor2{
+        margin: 0 auto;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+    }
+    #honolulu{
+
+        height: 100%;
+        width: 100%;
+       display: inline-block;
+       align-items: center;
+       
+        justify-content: center;
+    }
+    
+    #detalles {
+      
+       height: 100%;
+       width: 100%;
+      display: inline-block;
+      align-items: center;
+      align-items: center;
+        justify-content: center;
+    
+    }
+
+    
+
+}
+
+@media(max-width:680px){
+   
+    
+    
+    
+        .contenedor{
+            display: block;
+            margin:0;
+        }
+
+        .bloque{
+            display: inline-flex;
+        }
+    
+        #bloque {
+
+            
+             
+             width:301px;
+             margin: 0 auto;
+            
+            
+            }
+
+            .c-item h5{
+        
+                font-size: 16px;
+                margin: 0 auto;
+                 
+             }
+             
+             .m-item p{
+                 font-size: 9px;
+                 margin:0 auto;
+                 
+             }
+         
+             .m-item{
+                margin:0 auto;
+                width: 50%;
+             }
+            
+    }
+    
+    @media(max-width:500px){
+    
+    
+    .nav-links ul{
+     margin:0;
+     display:flex;
+    }
+    
+    
+    
+    .nav-links li a{
+        font-size: 12px;
+        
+        place-content: center;
+        display: inline-block;
+        
+        
+    }
+    .nav-links li {
+        width:77px;
+        place-content: center;
+        padding: 6px;
+        display: flex;
+        
+    }
+    
+    
+
+    
+    }
